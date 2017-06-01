@@ -1,8 +1,9 @@
 FROM alpine:3.6
+MAINTAINER Stéphane SALLES <gsmurf7@gmail.com>
+ENV NAME=docker-cowsay
 
-RUN apk update && \
-    apk add nodejs nodejs-npm
+RUN apk add --no-cache nodejs nodejs-npm
 
 RUN npm install -g cowsay	
 
-CMD ['cowsay', "'test'"]
+CMD cowsay -f whale Your $NAME Works !!!

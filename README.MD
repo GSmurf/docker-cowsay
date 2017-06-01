@@ -25,7 +25,25 @@ Options:
 
 beavis.zen  bong  bud-frogs  bunny  cheese  cower  daemon  default  doge  dragon-and-cow  dragon  elephant-in-snake  elephant  eyes  flaming-sheep  ghostbusters  goat  head-in  hedgehog  hellokitty  kiss  kitty  koala  kosh  luke-koala  mech-and-cow  meow  milk  moofasa  moose  mutilated  ren  satanic  sheep  skeleton  small  sodomized  squirrel  stegosaurus  stimpy  supermilker  surgery  telebears  turkey  turtle  tux  vader-koala  vader  whale  www
 
-## Examples :
+## Examples
 
-- cowsay -f turtle "Princesse"
-- docker run -t --rm gismo/cowsay cowsay -f whale "c'est toi l'404 \!"
+- docker run --rm gismo/cowsay cowsay -f turtle Princesse you rocks !
+- docker run --rm gismo/cowsay cowsay -f whale c\'est toi l\'404 !
+
+## Regards 
+https://www.npmjs.com/package/cowsay
+
+docker run --rm gismo/cowsay cowsay -f squirrel Have fun ! ! !
+ ________________
+< Have fun ! ! ! >
+ ----------------
+  \
+     \
+                  _ _
+       | \__/|  .~    ~.
+       /oo `./      .'
+      {o__,   \    {
+        / .  . )    \
+        `-` '-' \    }
+       .(   _(   )_.'
+      '---.~_ _ _|
