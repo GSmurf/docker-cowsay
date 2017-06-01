@@ -1,6 +1,6 @@
 
 build:
-        docker build -t gismo/cowsay -t gismo/cowsay:$(date +"V%y.%m.1") .
+        docker build -t gismo/docker-cowsay -t gismo/docker-cowsay:$(date +"V%y.%m.1") .
 test:
-        docker run -t --rm gismo/cowsay cowsay -f whale "c'est toi l'404 \!"
+        docker run --rm gismo/docker-cowsay cowsay -f whale c'est toi l'404 !
 	

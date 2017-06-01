@@ -27,13 +27,13 @@ beavis.zen  bong  bud-frogs  bunny  cheese  cower  daemon  default  doge  dragon
 
 ## Examples
 
-- docker run --rm gismo/cowsay cowsay -f turtle Princesse you rocks !
-- docker run --rm gismo/cowsay cowsay -f whale c\'est toi l\'404 !
+- docker run --rm gismo/docker-cowsay cowsay -f turtle Princesse you rocks !
+- docker run --rm gismo/docker-cowsay cowsay -f whale c\'est toi l\'404 !
 
 ## Regards 
 https://www.npmjs.com/package/cowsay
 
-docker run --rm gismo/cowsay cowsay -f squirrel Have fun ! ! !
+docker run --rm gismo/docker-cowsay cowsay -f squirrel Have fun ! ! !
  ________________
 < Have fun ! ! ! >
  ----------------
