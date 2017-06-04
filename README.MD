@@ -1,3 +1,50 @@
+# Docker-cowsay
+
+Simple sample creation dockerfile with best-practices used to create a efficent, secure and smaller image docker as possible.
+
+This docker project use : alpine, nodejs and package npm cowsay
+
+## Examples
+
+```
+docker run --rm gismo/docker-cowsay -f turtle Princesse you rocks !
+ ______________________________
+< cowsay Princesse you rocks ! >
+ ------------------------------
+    \                                  ___-------___
+     \                             _-~~             ~~-_
+      \                         _-~                    /~-_
+             /^\__/^\         /~  \                   /    \
+           /|  O|| O|        /      \_______________/        \
+          | |___||__|      /       /                \          \
+          |          \    /      /                    \          \
+          |   (_______) /______/                        \_________ \
+          |         / /         \                      /            \
+           \         \^\\         \                  /               \     /
+             \         ||           \______________/      _-_       //\__//
+               \       ||------_-~~-_ ------------- \ --/~   ~\    || __/
+                 ~-----||====/~     |==================|       |/~~~~~
+                  (_(__/  ./     /                    \_\      \.
+                         (_(___/                         \_____)_)
+```
+
+```
+docker run --rm gismo/docker-cowsay -f whale c\'est toi l\'404 !
+ __________________________
+< cowsay c'est toi l'404 ! >
+ --------------------------
+         \
+          \
+                    ##        .
+              ## ## ##       ==
+           ## ## ## ##      ===
+       /""""""""""""""""\___/ ===
+  ~~~ {~~ ~~~~ ~~~ ~~~~ ~~ ~ /  ===- ~~~
+       \______ o          __/
+         \    \        __/
+          \____\______/
+```
+
 ## Help
 
 Usage: /usr/bin/node /usr/bin/cowsay [-e eye_string] [-f cowfile] [-h] [-l] [-n] [-T tongue_string] [-W column] [-bdgpstwy] text
@@ -25,15 +72,12 @@ Options:
 
 beavis.zen  bong  bud-frogs  bunny  cheese  cower  daemon  default  doge  dragon-and-cow  dragon  elephant-in-snake  elephant  eyes  flaming-sheep  ghostbusters  goat  head-in  hedgehog  hellokitty  kiss  kitty  koala  kosh  luke-koala  mech-and-cow  meow  milk  moofasa  moose  mutilated  ren  satanic  sheep  skeleton  small  sodomized  squirrel  stegosaurus  stimpy  supermilker  surgery  telebears  turkey  turtle  tux  vader-koala  vader  whale  www
 
-## Examples
-
-- docker run --rm gismo/docker-cowsay cowsay -f turtle Princesse you rocks !
-- docker run --rm gismo/docker-cowsay cowsay -f whale c\'est toi l\'404 !
-
 ## Regards 
 https://www.npmjs.com/package/cowsay
 
-docker run --rm gismo/docker-cowsay cowsay -f squirrel Have fun ! ! !
+
+```
+docker run --rm gismo/docker-cowsay -f squirrel Have fun ! ! !
  ________________
 < Have fun ! ! ! >
  ----------------
@@ -47,3 +91,4 @@ docker run --rm gismo/docker-cowsay cowsay -f squirrel Have fun ! ! !
         `-` '-' \    }
        .(   _(   )_.'
       '---.~_ _ _|
+```
