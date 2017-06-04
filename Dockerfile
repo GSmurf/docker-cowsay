@@ -11,4 +11,6 @@ RUN npm install -g cowsay
 
 USER cow
 
-CMD cowsay -f whale Your $NAME Works !!!
+ENTRYPOINT ["cowsay"] 
+
+CMD ["-f", "whale", "Your docker-cowsay Works !!!"]
