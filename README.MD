@@ -8,9 +8,9 @@ This docker project use : alpine, nodejs and package npm cowsay
 
 ```
 docker run --rm gismo/docker-cowsay -f turtle Princesse you rocks !
- ______________________________
-< cowsay Princesse you rocks ! >
- ------------------------------
+ _______________________
+< Princesse you rocks ! >
+ -----------------------
     \                                  ___-------___
      \                             _-~~             ~~-_
       \                         _-~                    /~-_
@@ -30,9 +30,9 @@ docker run --rm gismo/docker-cowsay -f turtle Princesse you rocks !
 
 ```
 docker run --rm gismo/docker-cowsay -f whale c\'est toi l\'404 !
- __________________________
-< cowsay c'est toi l'404 ! >
- --------------------------
+ ___________________
+< c'est toi l'404 ! >
+ -------------------
          \
           \
                     ##        .
