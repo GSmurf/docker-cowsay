@@ -70,7 +70,57 @@ Options:
   -f  Specifies a cow picture file (''cowfile'') to use. It can be either a path to a cow file or the name of one of cows included in the package.  [default: "default"]
   -l  List all cowfiles included in this package.
 
-beavis.zen  bong  bud-frogs  bunny  cheese  cower  daemon  default  doge  dragon-and-cow  dragon  elephant-in-snake  elephant  eyes  flaming-sheep  ghostbusters  goat  head-in  hedgehog  hellokitty  kiss  kitty  koala  kosh  luke-koala  mech-and-cow  meow  milk  moofasa  moose  mutilated  ren  satanic  sheep  skeleton  small  sodomized  squirrel  stegosaurus  stimpy  supermilker  surgery  telebears  turkey  turtle  tux  vader-koala  vader  whale  www
+## List of possible cow picture file
+- beavis.zen
+- bong
+- bud-frogs
+- bunny
+- cheese
+- cower
+- daemon
+- default
+- doge
+- dragon-and-cow
+- dragon
+- elephant-in-snake
+- elephant
+- eyes
+- flaming-sheep
+- ghostbusters
+- goat
+- head-in
+- hedgehog
+- hellokitty
+- kiss
+- kitty
+- koala
+- kosh
+- luke-koala
+- mech-and-cow
+- meow
+- milk
+- moofasa
+- moose
+- mutilated
+- ren
+- satanic
+- sheep
+- skeleton
+- small
+- sodomized
+- squirrel
+- stegosaurus
+- stimpy
+- supermilker
+- surgery
+- telebears
+- turkey
+- turtle
+- tux
+- vader-koala
+- vader
+- whale
+- www
 
 ## Regards 
 https://www.npmjs.com/package/cowsay
